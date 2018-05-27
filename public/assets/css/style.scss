@@ -1,6 +1,5 @@
 @import "variables";
 @import "main";
-@import "responsive";
 
 pre {
   padding: 15px 15px 0 15px;
@@ -120,6 +119,10 @@ pre, .code-style {
       background-color: $alizarin;
     }
   }
+
+  &-4 {
+    width: 25%;
+  }
 }
 
 table {
@@ -157,3 +160,5 @@ tbody {
     width: 100%;
   }
 }
+
+@import "responsive";
